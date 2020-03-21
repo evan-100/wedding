@@ -1342,6 +1342,9 @@ footer.white-wrapper .social-links li a {
     font-weight: 700;
     letter-spacing: 2px;
 }
+#when, #where, #where2 {
+    min-height: 280px;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /*  19 - MEDIA QUERIES
