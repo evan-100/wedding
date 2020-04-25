@@ -1343,7 +1343,7 @@ footer.white-wrapper .social-links li a {
     letter-spacing: 2px;
 }
 #when, #where, #where2 {
-    min-height: 280px;
+    /*min-height: 280px;*/
 }
 
 /*-----------------------------------------------------------------------------------*/
