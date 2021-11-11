@@ -33,11 +33,11 @@ body {
 }
 
 .theme-accent-color {
-    color: #C10E1F;
+    color: rgba(14, 176, 193, 0.8);
 }
 
 .text-muted {
-    color: #444
+    color: #919191;
 }
 
 .text-primary {
@@ -103,6 +103,10 @@ h6 {
     display: block;
 }
 
+.mb60 {
+    margin-bottom: 60px
+}
+
 .mb100 {
     margin-bottom: 100px;
 }
@@ -125,6 +129,11 @@ h6 {
 
 .mt120 {
     margin-top: 120px
+}
+
+.mtb {
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .ptb {
@@ -651,11 +660,11 @@ section {
 }
 
 .section-inner {
-    padding: 120px 0
+    padding: 60px 0
 }
 
 .parallax .section-inner {
-    padding: 200px 0
+    padding: 150px 0
 }
 
 section h2.section-heading, .section-heading {
@@ -1253,7 +1262,10 @@ footer.white-wrapper .social-links li a {
     text-transform: uppercase;
     letter-spacing: 8px;
 }
-
+.zoom-title {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
 .nav.nav-justified > li > a:hover,
 .nav.nav-justified > li > a:focus {
     background-color: transparent;
@@ -1300,7 +1312,7 @@ footer.white-wrapper .social-links li a {
 }
 
 .tab-pane .tab-inner {
-    padding: 30px 0 20px;
+    /*padding: 30px 0 20px;*/
 }
 
 @media (min-width: 768px) {
@@ -1341,6 +1353,7 @@ footer.white-wrapper .social-links li a {
     font-size: 110px;
     font-weight: 700;
     letter-spacing: 2px;
+    line-height: 110px;
 }
 #when, #where, #where2 {
     /*min-height: 280px;*/
@@ -1518,5 +1531,8 @@ footer.white-wrapper .social-links li a {
 
 #instafeed img {
     width: 16.666666%;
+}
+iframe html{
+    overflow: auto!important;
 }
 
