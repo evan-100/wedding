@@ -1,8 +1,8 @@
 /*-----------------------------------------------------------------------------------*/
 /*  1 - FONT IMPORT
 /*-----------------------------------------------------------------------------------*/
-@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800);
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
 
 /*-----------------------------------------------------------------------------------*/
@@ -560,7 +560,7 @@ fieldset[disabled] .btn-primary.active {
 #headerwrap {
     background-color: #f3f3f3;
     overflow: hidden;
-    background-image: url('../img/bg/bgheart.jpg');
+    background-image: url('https://lindseyneu.com/wedding/house.jpeg');
 }
 
 .opaque {
