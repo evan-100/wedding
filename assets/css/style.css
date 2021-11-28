@@ -1535,4 +1535,9 @@ footer.white-wrapper .social-links li a {
 iframe html{
     overflow: auto!important;
 }
-
+.carousel-indicators li{
+    border: 1px solid #000;
+}
+.carousel-indicators .active{
+    background-color:#000; 
+}
